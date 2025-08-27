@@ -51,7 +51,8 @@ ENVIROMENT=dev
 DB_SSL=false
 ```
 
-# Setting up PostgreSQL with Docker (Make sure the .env file have the desired values cause Docker will use this variables to create the DB instance)
+# Setting up PostgreSQL with Docker 
+(Make sure the .env file have the desired values cause Docker will use this variables to create the DB instance)
 ```shell
-docker compuse up -d
+docker compose up -d
 ```
